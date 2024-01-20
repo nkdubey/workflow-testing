@@ -19,7 +19,6 @@ jobs:
       - name: Step 1
         run: echo "This is Step 1"
         if: success()
-        run: echo "hello"
 
       - name: Step 2
         id: step2
